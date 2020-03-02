@@ -1,5 +1,5 @@
 import { version } from '../package.json'
-const os = require('os')
+const os = require('os-browserify')
 
 const BASE_HOST = process.env.PATREON_OAUTH_HOST || 'https://www.patreon.com'
 const BASE_PATH = 'api/oauth2/api'
